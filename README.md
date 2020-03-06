@@ -1,7 +1,8 @@
 # TweenMax
-<h2>前端動畫網頁實作<h2>
+<h2>前端動畫網頁實作</h2>
 
-環境安裝 請安裝NVM版本控制 https://github.com/coreybutler/nvm-windows/releases  
+- 環境安裝   
+請安裝NVM版本控制 https://github.com/coreybutler/nvm-windows/releases  
 安裝nodejs 最新穩定版本  
 NVM指令  
 nvm list：查看已安裝的版本  
