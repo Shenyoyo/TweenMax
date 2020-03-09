@@ -20,13 +20,17 @@
         height: 100%;
         background-color: cadetblue;
         background-image: url("./images/bg1.jpg");
+        background-repeat:no-repeat;
     }
 </style>
 <body>
     <div id="box"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <script>
-       
+       TweenMax.to("#box",3,{
+           width:"100%",
+           ease: Bounce.easeOut
+       })
     </script>
 </body>
 </html>
