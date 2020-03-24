@@ -33,7 +33,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <script>
-       
+       $(function() {
+           var demo = {
+               int : 20
+           }
+
+           TweenMax.to(demo,8,{
+               int:0,
+               onUpdate: function(){
+                   $("#scoreDisplay").html(Math.ceil(demo.int));
+               },
+               onComplete: function(){
+                   alert("動畫執行完畢");
+               }
+
+           })
+           
+       })
     </script>
 </body>
 </html>
